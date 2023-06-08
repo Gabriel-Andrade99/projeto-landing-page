@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+
+#logo{
+    margin-left: 50px;
+    margin-top: 50px;
+    
+}
+
+#titulo-menu-superior{
+    margin-left: 150px;
+    margin-top: 75px;
+
+}
+
+#texto-menu-superior{
+    margin-left: 150px;
+    margin-top: 35px;
+    padding-bottom: 100px;
+}
+
+#menusuperior{
+    background-image: url(imagens/fundo_superior.png);
+    color: aliceblue;
+
+}
+
+#menuinformacional {
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    
+    align-items: center;
+  }
+  
+  .clock-container {
+    position: absolute;
+    width: <largura do relógio>;
+    height: <altura do relógio>;
+    margin: 0 550px; /* Ajuste as margens conforme necessário */
+  }
+  
+  .clock {
+    width: 100;
+    height: 100;
+  }
+  
+  .hand {
+    position: absolute;
+    top: 20%; /* Ajuste a posição vertical para 50% */
+    left: 45%; /* Ajuste a posição horizontal para 50% */
+    transform: translate(-50%, -50%) rotate(<ângulo de rotação do ponteiro>);
+    transform-origin: bottom center;
+  }
+  .icone{
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+
+  }
+
+  #secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+  }
+
+  .textoinformativo{
+    display: flex;
+    align-items: center;
+  }
+
+  #titulovideo{
+    margin-top: 50px;
+    color: #247BA0;
+  }
+  #textovideo{
+    font-size: 18px;
+    color: #383838 ;
+  }
+  #video{
+    margin: 50px 25px 50px 140px;
+  }
+#carrossel{
+  background-color: #247BA0;
+  padding: 50px;
+}
+#titulo-carrosel{
+  color: #EAECE5;
+  text-align: center;
+  font-size: 25px;
+}
+#Div_cards{
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+}
+.card{
+  margin-left: 50px;
+}
+
+#seta-esquerda{
+  display: none;
+}
+#Bruna{
+  display: none;
+}
+.seta{
+  margin-top: 50px;
+  cursor: pointer;
+}
+.seta:hover{
+  transform: translateY(-7px);
+  transition-duration: 0.5s;
+}
+#formulario{
+  text-align: center;
+}
+
+
+#titulo-formulario{
+  font-size: 25px;
+  margin: 25px;
+  color: #383838;
+  }
+  
+  input{
+      width: 300px;
+      height: 40px;
+    background: #EAECE5;
+    margin: 25px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+  button{
+    background: #247BA0;
+    height: 40px;
+    width: 250px;
+    color:#EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  button:hover{
+    background: #318fb8;
+    colo: white;
+    transform:translateY(-5px);
+    box-shadow: 0px 15px 20px #05103077;
+    transition-duration: 0.3s;
+  }
